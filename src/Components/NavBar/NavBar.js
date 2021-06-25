@@ -1,3 +1,4 @@
+import React from 'react';
 import './NavBar.css';
 
 
@@ -14,3 +15,5 @@ function NavBar() {
         </div> 
     )
 }
+
+export default NavBar;

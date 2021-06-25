@@ -1,0 +1,16 @@
+.navBar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 80px;
+    height: 100vh;
+
+    background-color:blue;
+    color: white;
+}
