@@ -7,7 +7,7 @@ function NavBar() {
             < Link to='/'>Logo</Link>
             < Link to='/'>Landing</Link>
             < Link to='/about'>About</Link>
-            < Link to='/'>Projects</Link>
+            < Link to='/projects'>Projects</Link>
             < Link to='/'>Contact</Link>
             < Link to='/'>Resume</Link>
             < Link to='/'>Light and Dark</Link>
