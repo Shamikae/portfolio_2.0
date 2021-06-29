@@ -9,7 +9,7 @@ function NavBar() {
             < Link to='/about'>About</Link>
             < Link to='/projects'>Projects</Link>
             < Link to='/contact'>Contact</Link>
-            < Link to='/'>Resume</Link>
+            < Link to='/resume'>Resume</Link>
             < Link to='/'>Light and Dark</Link>
         </div> 
     )

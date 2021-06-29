@@ -5,6 +5,7 @@ import About from './Components/About/About';
 import LandingPage from './Components/LandingPage/LandingPage';
 import Projects from './Components/Projects/Projects';
 import Contact from './Components/Contact/Contact';
+import Resume from './Components/Resume/Resume';
 
 function App() {
     return (
@@ -16,6 +17,7 @@ function App() {
                     <Route path="/about" component={About} />
                     <Route path="/projects" component={Projects} />
                     <Route path="/contact" component={Contact} />
+                    <Route path="/resume" component={Resume} />
                 </Switch>
             </Router>
         </div> 
