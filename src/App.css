@@ -1,6 +1,6 @@
 .App {
   text-align: center;
- 
+  color: black;
 }
 
 a{
@@ -8,6 +8,10 @@ a{
     color: inherit;
 }
 
+.App-logo {
+    height: 20vmin;
+    pointer-events: none;
+  }
 
 
 
