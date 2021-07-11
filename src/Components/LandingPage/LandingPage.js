@@ -1,6 +1,9 @@
 function LandingPage(){
-    return(
-    <h1>Landing Page</h1>
+    return (
+        <div name='Landingpage' className='landingPage'>
+            <h1>Shamika Earle</h1>
+            <p>Software Engineer & Developer based in New York, NY. Experienced in designing & developing.</p>
+        </div>
     )
 }
 

@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  color: black;
+  
 }
 
 a{
@@ -9,8 +9,10 @@ a{
 }
 
 .App-logo {
-    height: 20vmin;
+    height: 100px;
     pointer-events: none;
+    display: flex;
+    justify-content: center;
   }
 
 
