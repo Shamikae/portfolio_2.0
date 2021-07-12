@@ -10,8 +10,9 @@ body {
   background-image: url("./Components/Assets/me.gif");
   height: 100vh;
   background-size: 300px;
-  background-position: center;
+  background-position: right;
   background-repeat: no-repeat;
+ 
 }
 
 code {

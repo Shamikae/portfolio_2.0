@@ -1,0 +1,33 @@
+h1 {
+    text-align: right;
+    padding-right: 20px;
+    
+    background-color: rgba(249, 247, 247, .2);
+    color: black;
+    font-family: 'Snell Roundhand';
+  }
+
+h2 {
+    color: rgba(0,0,0,1);
+    text-transform: uppercase;
+    line-height: 1;
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Didot Italic';
+    font-weight: 400;
+    font-style: normal;
+    width: 40vw;
+    position: relative;
+    left: 100px;
+    margin: 0px;
+
+}
+
+#land {
+    display: flex;
+    text-align: left;
+    position: relative;
+    left: 100px;
+    color: black;
+    width: 50vw;
+}
