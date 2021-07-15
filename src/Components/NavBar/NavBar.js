@@ -1,20 +1,22 @@
 import './NavBar.css';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 import logo from '../Assets/SE_logo.png';
 // import Logo from '../Logo/Logo';
 
-
+function click() {
+    console.log("hit")
+}
 function NavBar() {
     return (
         <div className="NavBar">
 
-                < Link to='/'><img src={logo} alt="logo" className="App-logo" /></Link>
-                < Link to='/'>Landing</Link>
-                < Link to='/about'>About</Link>
-                < Link to='/projects'>Projects</Link>
-                < Link to='/contact'>Contact</Link>
-                < Link to='/resume'>Resume</Link>
-                < Link to='/'>Light and Dark</Link>
+                < Link  onClick={click} to='/' smooth={true}><img src={logo} alt="logo" className="App-logo" /></Link>
+                < Link  to='/' smooth={true}>Landing</Link>
+                < Link  to='/about' smooth={true}>About</Link>
+                < Link  to='/projects' smooth={true}>Projects</Link>
+                < Link  to='/contact' smooth={true}>Contact</Link>
+                < Link  to='/resume' smooth={true}>Resume</Link>
+                < Link  to='/' smooth={true}>Light and Dark</Link>
             
         </div>
     )
