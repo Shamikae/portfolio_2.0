@@ -16,10 +16,14 @@ function App() {
                     <Route exact path="/" component={LandingPage} />
                     <Route path="/about" component={About} />
                     <Route path="/projects" component={Projects} />
-                    <Route path="/contact" component={Contact} />
                     <Route path="/resume" component={Resume} />
+                    <Route path="/contact" component={Contact} />
                 </Switch>
             </Router>
+            <About/>
+            <Projects/>
+            <Resume/>
+            <Contact/>
         </div> 
     )
 }
