@@ -1,18 +1,10 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-
-  background-color: rgb(255, 255, 255);
-  background-image: url("./Components/Assets/me.gif");
-  height: 100vh;
-  background-size: 300px;
-  background-position: right;
+  /* background-image: url("./Components/Assets/IMG_2524.JPG");
   background-repeat: no-repeat;
- 
+  height: 100%; */
+  margin: 0;
+
+
 }
 
 code {

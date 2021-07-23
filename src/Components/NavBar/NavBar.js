@@ -10,13 +10,13 @@ function NavBar() {
     return (
         <div className="NavBar">
 
-                < Link  onClick={click} to='/' smooth={true}><img src={logo} alt="logo" className="App-logo" /></Link>
-                < Link  to='/' smooth={true}>Landing</Link>
-                < Link  to='/about' smooth={true}>About</Link>
-                < Link  to='/projects' smooth={true}>Projects</Link>
-                < Link  to='/contact' smooth={true}>Contact</Link>
-                < Link  to='/resume' smooth={true}>Resume</Link>
-                < Link  to='/' smooth={true}>Light and Dark</Link>
+                < Link  onClick={click} to='landing' smooth={true}><img src={logo} alt="logo" className="App-logo" /></Link>
+                < Link  to='landing' smooth={true}>Landing</Link>
+                < Link  to='about' smooth={true}>About</Link>
+                < Link  to='projects' smooth={true}>Projects</Link>
+                < Link  to='resume' smooth={true}>Resume</Link>
+                < Link  to='contact' smooth={true}>Contact</Link>
+                < Link  to='' smooth={true}>Light and Dark</Link>
             
         </div>
     )
