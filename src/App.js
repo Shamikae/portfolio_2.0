@@ -6,6 +6,9 @@ import LandingPage from './Components/LandingPage/LandingPage';
 import Projects from './Components/Projects/Projects';
 import Contact from './Components/Contact/Contact';
 import Resume from './Components/Resume/Resume';
+import Scrollbar from 'smooth-scrollbar';
+
+Scrollbar.init(document.querySelector('#my-scrollbar'));
 
 function App() {
     return (
