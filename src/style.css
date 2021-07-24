@@ -17,8 +17,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
 #my-scrollbar {
     width: 100vw;
     height: 100vh;
     overflow: auto;
-  }
+}
+
+.scrollbar-thumb.scrollbar-thumb-y {
+
+    background: none;
+    border:1px solid white;
+    box-shadow: 0 0 1px white;
+}
+
+.scrollbar-track.scrollbar-track-y{
+    background: none;
+}

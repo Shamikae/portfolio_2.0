@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './style.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-// import Scrollbar from 'smooth-scrollbar';
+import Scrollbar from 'smooth-scrollbar';
 
-// Scrollbar.init(document.querySelector('#my-scrollbar'));
+Scrollbar.init(document.querySelector('#my-scrollbar'));
 
 ReactDOM.render(
   <React.StrictMode>
