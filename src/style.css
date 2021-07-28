@@ -1,7 +1,4 @@
 body {
-  /* background-image: url("./Components/Assets/IMG_2524.JPG");
-  background-repeat: no-repeat;
-  height: 100%; */
   margin: 0;
   background-image: url("./Components/Assets/IMG_2524.JPG");
   /* min-height: 100%; */
@@ -9,7 +6,7 @@ body {
   background-position: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-color: blue; */
+  background-color: blue;
   overflow: hidden;
 }
 

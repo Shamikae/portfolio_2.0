@@ -1,6 +1,6 @@
 function Projects(){
     return(
-        <div className="test" name="projects">
+        <div className="sideNavItem" name="projects">
         <h1>Projects</h1>
         </div>
     )
