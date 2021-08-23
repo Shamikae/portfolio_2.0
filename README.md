@@ -14,14 +14,13 @@
 * Ensure to have strong CTA
 
 ## Tasks
-* [ ] Create app with `create-react-app`
-* [ ] Push up to github
+* [x] Create app with `create-react-app`
+* [x ] Push up to github
 * [ ] Create Sticky side-nav
 * [ ] Uitlize react-router
-* [ ] Create Landing page
-* [ ] Create About Me page
-* [ ] Create Projects page
-* [ ] Create Contact page
-* [ ] Create Resume page
+* [x] Create About Me page
+* [x] Create Projects page
+* [x] Create Contact page
+* [x] Create Resume page
 * [ ] Have a single page-scrolling portfolio
 * [ ] Have a light and dark mode
