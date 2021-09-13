@@ -15,7 +15,7 @@
 
 ## Tasks
 * [x] Create app with `create-react-app`
-* [x ] Push up to github
+* [x] Push up to github
 * [ ] Create Sticky side-nav
 * [ ] Uitlize react-router
 * [x] Create About Me page
